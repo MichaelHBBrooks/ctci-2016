@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "NPM Dev",
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": ["$tsc"],
+			"group": "build",
+			"detail": "Run program in dev mode."
+		},
+		{
+			"label": "NPM Mocha",
+			"type": "npm",
+			"script": "test",
+			"problemMatcher": ["$tsc"],
+			"group": "test",
+			"detail": "Run all Mocha tests."
+		}
+	]
+}

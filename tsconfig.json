@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"forceConsistentCasingInFileNames": true,
+		"target": "esnext",
+		"module": "commonjs",
+		"types": ["node"],
+		"strict": true,
+		"outDir": "./dist",
+		"noImplicitAny": true,
+		"esModuleInterop": true,
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"baseUrl": "./src",
+		"paths": {}
+	},
+	"include": ["./src/**/*"]
+}
