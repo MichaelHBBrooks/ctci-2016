@@ -5,13 +5,7 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Run NPM dev",
-			"command": "npm run dev",
-			"request": "launch",
-			"type": "node-terminal"
-		},
-		{
-			"name": "Test TS Script",
+			"name": "Run dev",
 			"program": "${workspaceFolder}/src/index.ts",
 			"request": "launch",
 			"skipFiles": ["<node_internals>/**"],
@@ -22,7 +16,7 @@
 			"outFiles": ["${workspaceFolder}/dist/**/*.js"]
 		},
 		{
-			"name": "Mocha",
+			"name": "Mocha Test",
 			"program": "${workspaceFolder}/src/index.ts",
 			"request": "launch",
 			"skipFiles": ["<node_internals>/**"],
