@@ -3,7 +3,7 @@ import "mocha";
 
 import { stringCompression } from "./1-6-StringCompression";
 
-describe.only("1.6 String Compression", function () {
+describe("1.6 String Compression", function () {
 	it('"" should throw an error', function () {
 		assert.throws(() => {
 			stringCompression("");
