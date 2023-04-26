@@ -11,7 +11,7 @@
                    21 22 23 24 25
     */
 
-export function RotateMatrix(image: number[][]): number[][] {
+export function rotateMatrix(image: number[][]): number[][] {
 	const length = image.length;
 	for (let y = 0; y < length / 2; y++) {
 		for (let x = y; x < length - y - 1; x++) {

@@ -1,12 +1,12 @@
 import assert from "assert";
 import "mocha";
-import { RotateMatrix } from "./1-7-RotateMatrix";
+import { rotateMatrix } from "./1-7-RotateMatrix";
 
 describe("1. Arrays and Strings", function () {
 	describe("1.7 Rotate Matrix", function () {
 		it("should rotate a matrix with an odd amount of entries", function () {
 			assert.deepEqual(
-				RotateMatrix([
+				rotateMatrix([
 					[1, 2, 3, 4, 5],
 					[6, 7, 8, 9, 10],
 					[11, 12, 13, 14, 15],
@@ -24,7 +24,7 @@ describe("1. Arrays and Strings", function () {
 		});
 		it("should rotate a matrix with an even amount of entries", function () {
 			assert.deepEqual(
-				RotateMatrix([
+				rotateMatrix([
 					[1, 2, 3, 4],
 					[5, 6, 7, 8],
 					[9, 10, 11, 12],
